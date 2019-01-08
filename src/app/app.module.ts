@@ -3,12 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login/login.component';
+
+import { RegisterComponent } from './Login_Register/register/register.component';
+import { ForgetPasswordComponent } from './Login_Register/forget-password/forget-password.component';
+import { ChangePasswordComponent } from './Login_Register/change-password/change-password.component';
+import { OrdersComponent } from './Users/Components/orders/orders.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+   
+    RegisterComponent,
+    ForgetPasswordComponent,
+    ChangePasswordComponent,
+    OrdersComponent,
+    
   ],
   imports: [
     BrowserModule,
