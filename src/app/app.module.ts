@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { RegisterComponent } from './Login_Register/register/register.component';
 import { ForgetPasswordComponent } from './Login_Register/forget-password/forget-password.component';
 import { ChangePasswordComponent } from './Login_Register/change-password/change-password.component';
-import { OrdersComponent } from './Users/Components/orders/orders.component';
+import {LoginComponent} from './Login_Register/login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { OrdersComponent } from './Users/Components/orders/orders.component';
     RegisterComponent,
     ForgetPasswordComponent,
     ChangePasswordComponent,
-    OrdersComponent,
+    LoginComponent
     
   ],
   imports: [
